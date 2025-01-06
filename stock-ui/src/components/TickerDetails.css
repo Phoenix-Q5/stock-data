@@ -1,0 +1,96 @@
+.ticker-details-container {
+    background-color: #ffffff;
+    justify-content: left;
+    height: calc(100vh - 150px);
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    margin: 20px 0;
+}
+
+.details-left {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.details-left h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.details-left p {
+    font-size: 1rem;
+    color: #555;
+    margin: 5px 0;
+}
+
+.details-left a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.details-left a:hover {
+    text-decoration: underline;
+}
+
+.details-right {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.ticker-details-container h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.ticker-details-container h3 {
+    font-size: 1.5rem;
+    color: #857f7f;
+    margin-top: 20px;
+}
+
+.ticker-details-container p {
+    font-size: 1rem;
+    color: #555;
+    margin: 5px 0;
+}
+
+.ticker-details-container a {
+    color: #4d3d7c;
+    text-decoration: none;
+}
+
+.ticker-details-container a:hover {
+    text-decoration: underline;
+}
+
+.stock-exchanges-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.details-about {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.details-about h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.details-about p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+}
